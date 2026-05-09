@@ -21,4 +21,11 @@ autoinstall:
     toggle: null
   
   timezone: "America/New_York"
-  
+
+  identity:
+    hostname: "ubuntu-dev-workstation"
+    realname: "Kenny Morris"
+    username: "kenny"
+    password: "$6$59idjQC3p/ZTogoX$JI6XBcTg0aQ/ybZHgDZmO8ir5MsWl.uiuHR/qsWyxz3LSbglKnTpJUNvtmlapu33/G49pvh6MR6aRjG5Vk21u1"
+    groups: [adm, sudo, lpadmin]
+
