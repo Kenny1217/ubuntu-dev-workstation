@@ -13,3 +13,12 @@ autoinstall:
   drivers:
     install: false
 
+  locale: "en_US.UTF-8"
+
+  keyboard:
+    layout: us
+    variant: ""
+    toggle: null
+  
+  timezone: "America/New_York"
+  
