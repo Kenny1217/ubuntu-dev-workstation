@@ -1,0 +1,15 @@
+autoinstall:
+  version: 1
+  
+  source:
+    id: ubuntu-desktop-minimal
+
+  refresh-installer:
+    update: true
+    channel: latest/edge
+  
+  updates: security
+
+  drivers:
+    install: false
+
