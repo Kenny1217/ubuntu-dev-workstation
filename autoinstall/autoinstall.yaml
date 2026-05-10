@@ -29,3 +29,9 @@ autoinstall:
     password: "$6$59idjQC3p/ZTogoX$JI6XBcTg0aQ/ybZHgDZmO8ir5MsWl.uiuHR/qsWyxz3LSbglKnTpJUNvtmlapu33/G49pvh6MR6aRjG5Vk21u1"
     groups: [adm, sudo, lpadmin]
 
+  ssh:
+    install-server: true
+    authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII4Qd0nSgwbhUkXRlUa4ie7fQVhw9PwlWf/teAELG7T2 ubuntu-dev-workstation
+    allow-pw: false
+
